@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Surveyapp</string>
+    <string name="sText">Short Text</string>
+    <string name="Text">Long Text</string>
+    <string name="menu_item_email">Email</string>
+    <string name="multiplechoice">Choice</string>
+    <string name="checkbox">Checkbox</string>
+    <string name="number">Number</string>
+    <string name="rating">Rating</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="get_started">Get started with</string>
+    <string name="sign_up_with">Or sign up with</string>
+    <string name="email">Email</string>
+    <string name="already">Already onboard?</string>
+    <string name="login">Login</string>
+    <string name="hello">Hello.</string>
+    <string name="hint_name">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pwd">Password</string>
+    <string name="hint_confirm_pwd">Confirm password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="register_error">All fields must be filled out</string>
+    <string name="wel_back">Welcome Back</string>
+    <string name="ny_register">Not yet registered?</string>
+    <string name="signup">Signup</string>
+</resources>

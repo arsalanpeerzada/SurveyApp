@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "615026740630",
+    "firebase_url": "https://surveyapp-e3142.firebaseio.com",
+    "project_id": "surveyapp-e3142",
+    "storage_bucket": "surveyapp-e3142.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615026740630:android:2960ed61c79a36db5161b7",
+        "android_client_info": {
+          "package_name": "com.techwirz.surveyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615026740630-tgu1p1d8d7p5f98mtk1or9s4h39i156a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsBR8HAjoJHOQH5c8JviG9sStO_iLvRVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615026740630-tgu1p1d8d7p5f98mtk1or9s4h39i156a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

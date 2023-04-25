@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:focusableInTouchMode="true"
+        android:icon="@drawable/tele_white"
+        android:iconTint="@color/space_white"
+        android:iconifiedByDefault="true"
+        android:orderInCategory="1"
+        android:title="action_search"
+        app:iconifiedByDefault="true"
+        app:showAsAction="always" />
+
+
+</menu>

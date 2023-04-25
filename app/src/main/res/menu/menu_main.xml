@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="io.github.yavski.fabspeeddial.samples.PositionSampleActivity">
+    <item
+        android:id="@+id/action_call"
+        android:icon="@drawable/stext"
+        android:orderInCategory="100"
+        android:title="@string/sText"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_text"
+        android:icon="@drawable/text"
+        android:orderInCategory="100"
+        android:title="@string/Text"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_email"
+        android:icon="@drawable/ic_mail_outline_black_24px"
+        android:orderInCategory="100"
+        android:title="@string/menu_item_email"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/number"
+        android:icon="@drawable/number"
+        android:orderInCategory="100"
+        android:title="@string/number"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rating"
+        android:icon="@drawable/star"
+        android:orderInCategory="100"
+        android:title="@string/rating"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/multiplechoice"
+        android:icon="@drawable/multiplechoice"
+        android:orderInCategory="100"
+        android:title="@string/multiplechoice"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/checkbox"
+        android:icon="@drawable/checkbox"
+        android:orderInCategory="100"
+        android:title="@string/checkbox"
+        app:showAsAction="never" />
+
+
+</menu>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <View
+        android:id="@+id/ellipse"
+        android:layout_width="397dp"
+        android:layout_height="397dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-130dp"
+        android:layout_marginTop="-247dp"
+        android:background="@drawable/icon_background" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Register "
+        android:textColor="@color/colorPrimary"
+        android:textSize="26dp" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="44dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="242dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <EditText
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/boxstyle"
+            android:id="@+id/First_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="32dp"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/hint_name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/boxstyle"
+            android:id="@+id/Last_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="32dp"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/hint_lastname"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp" />
+
+        <EditText
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/boxstyle"
+            android:id="@+id/email_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="32dp"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp" />
+
+        <EditText
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/boxstyle"
+            android:id="@+id/password_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="32dp"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/hint_pwd"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp" />
+
+        <EditText
+            android:paddingVertical="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/boxstyle"
+            android:id="@+id/confirm_Passord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="32dp"
+            android:backgroundTint="@color/grey"
+
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/hint_confirm_pwd"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textCursorDrawable="@null"
+            android:textSize="16dp" />
+
+
+        <Button
+            android:id="@+id/custom_signup_button"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/email_button_layout"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/sign_up"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/already"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/back_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/login"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

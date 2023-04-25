@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--    <item-->
+    <!--        android:id="@+id/action_search"-->
+    <!--        android:focusableInTouchMode="true"-->
+    <!--        android:iconifiedByDefault="true"-->
+    <!--        android:orderInCategory="1"-->
+    <!--        android:title="action_search"-->
+    <!--        app:actionViewClass="android.widget.SearchView"-->
+    <!--        app:iconifiedByDefault="true"-->
+    <!--        app:showAsAction="always" />-->
+
+
+    <!--    <item-->
+    <!--        android:iconTint="@color/space_white"-->
+    <!--        android:iconifiedByDefault="true"-->
+    <!--        app:iconifiedByDefault="true"-->
+    <!--        android:id="@+id/search"-->
+    <!--        android:orderInCategory="100"-->
+    <!--        android:title="Search Quran"-->
+    <!--        app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/AboutQ"
+        android:orderInCategory="200"
+        android:title="About Survey"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/privacypolicy"
+        android:orderInCategory="200"
+        android:title="Private Policy"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/aboutus"
+        android:orderInCategory="200"
+        android:title="About Us"
+        app:showAsAction="never" />
+
+
+</menu>

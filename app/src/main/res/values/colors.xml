@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3AAF9F</color>
+    <color name="colorPrimaryDark">#3AAF9F</color>
+    <color name="colorAccent">#3AAF9F</color>
+
+    <color name="lightGreen">#B2FFF4</color>
+
+    <color name="black">#000000</color>
+    <color name="red">#F70000</color>
+    <color name="other">#BE6050</color>
+    <color name="otherr">#BB493C</color>
+    <color name="testing">#4A4D50</color>
+<!--    <color name="grey">#999E9D</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="EditTextBackgroudn">#F3F3F3</color>
+
+    <color name="dark_blue">#3B5998</color>
+    <color name="fb_bg">#3B5998</color>
+    <color name="twitter_bg">#00ACED</color>
+    <color name="grey">#40000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

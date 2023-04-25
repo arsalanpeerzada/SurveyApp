@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.techwirz.surveyapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mylogo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/mylogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.techwirz.surveyapp.Activities.OpeningActivity"></activity>
+        <activity android:name="com.techwirz.surveyapp.Activities.SignUp"></activity>
+        <activity android:name="com.techwirz.surveyapp.Activities.LoginActivity" />
+        <activity android:name="com.techwirz.surveyapp.Activities.ChartActivity" />
+        <activity android:name="com.techwirz.surveyapp.Activities.FormFilling">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="surveyapp"
+                    android:pathPrefix="/techwitz"
+                    android:scheme="https" />
+            </intent-filter>
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="surveyapp.pakistanisp.org"
+                    android:pathPrefix="/form" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name="com.techwirz.surveyapp.Activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.techwirz.surveyapp.Activities.FormActivities.FormChoose" />
+        <activity android:name="com.techwirz.surveyapp.Activities.FormActivities.FormBuilder" />
+        <activity
+            android:name="com.techwirz.surveyapp.input.MultipleInput"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.techwirz.surveyapp.Activities.PreviewActivity" />
+        <activity android:name="com.techwirz.surveyapp.Activities.MainActivity" />
+    </application>
+
+</manifest>

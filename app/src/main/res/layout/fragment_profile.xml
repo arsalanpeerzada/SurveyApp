@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/profilename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Arsalan Peerzada"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profilcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profilename"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Karachi"
+                android:textSize="16dp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/personaltitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="50dp"
+            android:text="Personal"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/orders"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Templates"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/orders"
+                android:layout_marginTop="12dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/PersonalDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider1"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                android:text="Personal Details"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/PersonalDetails"
+                android:layout_marginTop="12dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/Socials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider2"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                android:text="Personal Details"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/Socials"
+                android:layout_marginTop="12dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/Responses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider2"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                android:text="Responses"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/Socials"
+                android:layout_marginTop="12dp"
+                android:background="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/GeneralTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="General"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/Notifications"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Feedback"
+                    android:textSize="16dp" />
+
+                <View
+                    android:id="@+id/divider11"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/Notifications"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/Help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/divider11"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Help"
+                    android:textSize="16dp" />
+
+                <View
+                    android:id="@+id/divider21"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/Help"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/Favorites"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/divider21"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Favorites"
+                    android:textSize="16dp" />
+
+                <View
+                    android:id="@+id/divider31"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/Favorites"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:id="@+id/Settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/divider31"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Settings"
+                    android:textSize="16dp" />
+
+                <View
+                    android:id="@+id/divider41"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/Settings"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/AboutUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/divider41"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="12dp"
+                    android:text="About US"
+                    android:textSize="16dp" />
+
+                <View
+                    android:id="@+id/divider61"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/AboutUs"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/black" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/SignOut"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="40dp"
+                android:text="Sign Out"
+                android:textColor="@color/red"
+                android:textSize="16dp" />
+
+            <View
+                android:id="@+id/divider0"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/SignOut"
+                android:layout_marginTop="12dp"
+                android:background="@color/black" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
